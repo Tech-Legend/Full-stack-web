@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/130a40cffb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Ibarra+Real+Nova&family=Kanit:wght@500&family=Mouse+Memoirs&family=Open+Sans:ital,wght@1,700&family=Roboto:wght@100&family=Ubuntu&family=Yeon+Sung&display=swap" rel="stylesheet">
+
+    <style>
+        .container-1{
+            display: flex;
+            align-items: center;
+           
+        }
+        .font{
+            font-family: 'Kanit', sans-serif;
+        }
+        .btn-1
+        {
+           margin-left: 397px;
+           padding: 9px;
+           border-radius: 5px;
+           border: none;
+           background-color: #F94A29;
+           color: white;
+           cursor: pointer;
+        }
+        H2{
+            padding-left:158px;
+color: orange;
+        }
+        .colors{
+            color: #F94A29;
+        }
+        ul{
+            display: inline;
+            padding-left: 74px;
+            align-items: center;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+        ul a{
+            padding-left: 23px;
+            color:white;
+            transition: 0.2s;
+        }
+         a:hover{
+            /* font-size: 23px; */
+            background: -webkit-linear-gradient(#F94A29,white,black);
+    transform: scale(2,2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            background-color: black;
+        }
+        .starting{
+            height: 32rem;
+            width: 0rem;
+            border: 2px solid black;
+            background-image: url("./car_images/car.jfif");
+            /* background-attachment: fixed; */
+            background-repeat: no-repeat;
+            background-position: center;
+          vertical-align: center;
+ /* visibility: hidden; */
+       transition: 0.5s;
+        }
+        .container-1_content{
+            margin-top: 387px;
+            margin-left: 215px;
+            transition: 1s;
+            opacity: 0;
+        }
+        p{
+            color: white;
+        }
+        h1{
+            color: white;
+        }
+        .btn-1{
+            color: #F94A29;
+            background-color: black;
+            margin-right: 23px;
+            border: 1px solid #F94A29;
+            transition: 0.2s;
+        }
+        .btn-1:hover{
+            transform: scale(1.2,1.2);
+            background-color: #F94A29;
+            border: 1px solid #F94A29;
+            color: white;
+        }
+        .btn-2{
+            color: white;
+            margin-left: 215px;
+            height: 33px;
+            width: 85px;
+            background-color: black;
+            border: 1px solid gray;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+        
+        .container-2_content{
+            margin-top: 87px;
+            margin-left: 215px;
+        }
+        .para-1{
+            font-size: 39px;
+        }
+        #icon-1{
+            padding-top: 12px;
+            color: #F94A29;
+            font-size: 43px;
+        }
+        .icon-panel{
+            display: flex;
+            gap: 38px;
+        }
+        .container-3_content{
+            margin-top: 73px;
+            margin-left: 944px;
+     
+        }
+        .small_rect{
+            height: 15px;
+            width: 0px;
+            background-color: #F94A29;
+           transition: 0.5s;
+        }
+        .small_rect1{
+            height: 15px;
+            width: 0px;
+            background-color: #F94A29;
+           transition: 0.5s;
+        }
+        .content-2{
+            height: 40rem;
+            width: 93rem;
+border: 1px solid black;
+background-image: url('./car_images/speedometer-3.jpg');
+background-repeat: no-repeat;
+background-position: right;
+opacity: 0;
+transition: 0.5s;
+        }
+        .content-3{
+            height: 40rem;
+            width: 93rem;
+border: 1px solid black;
+background-image: url('./car_images/benz-1.jpg');
+background-repeat: no-repeat;
+background-position: left;
+
+        }
+        .horse-panel{
+            display: flex;
+            gap: 41px;
+        }
+        .footer{
+            display: flex;
+            align-items: center;
+        }
+        .copyright{
+            margin-left: 153px;
+            padding-right: 69px;
+        }
+        #app-logo{
+            padding-left: 4px;
+            font-size: 18px;
+           cursor: pointer;
+            color:white;
+            transition: 0.2s;
+        }
+#app-logo:hover{
+    background: -webkit-linear-gradient(#F94A29,white,black);
+    transform: scale(1.7,1.7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+        .tune{
+            padding-left:178px;
+        }
+    </style>
+</head>
+<body onload="load_content()">
+    <div class="container-1">
+        <div> <h2 class="font colors">BEST TUNING</h2></div>
+        <div><UL><a href="">Home</a>
+            <a href="">Projects</a>
+            <a href="">Teams</a>
+            <a href="">Contact us</a>
+    
+        </UL></div>
+        <div><button class="btn-1">Book an Appointment</button></div>
+       </div>
+       <div class="starting">
+        <div class="container-1_content">
+            <p>Tuning Protection</p>
+            <h1>Tuning is an Upgrade <br> that unlocks hidden<br> potential of your car</h1>
+           
+           </div>
+       </div>
+       <div class="content-2">
+        <div class="container-2_content">
+            <p>What do you want it</p>
+            <p class="para-1">What is Tuning and <br> Why do you Want It ?</p> 
+            <p>Tuning is an upgrade to the software in the vehicle's computer. <br> Custom software is installed that changes many parameters <br> that control the way the engine operaters. With proper tuning, <br> you can increase both power and fuel economy.</p>
+       <div class="icon-panel">
+        <div><i class="fa-solid fa-stopwatch" id="icon-1"></i>
+        <p>A comprehensive total <br> for high horsepower <br>builds.</p>
+        </div><div><i class="fa-solid fa-gas-pump" id="icon-1"></i>
+        <p>With Proper Tuning. <br> you can increase fuel <br> economy.</p>
+        </div>
+       </div>
+        </div>
+      </div>
+      <div class="content-3">
+        <div class="container-3_content">
+        <p>ADVANTAGES</p>
+        <p class="para-1">What can I Expect <br> from Tuning?</p> 
+        <p>What can I expect from Tuning?</p>
+        <p>Through proper modification, it is possible to greatly increase the <br> power output of the vehicle. While at the same time <br> improving safety and longetivity of the engine, drivability,and <br>smoothness. </p>
+        <div class="horse-panel">
+            <div><h1>20-35 hp</h1>
+                <div class="small_rect"></div>
+                <p>rougly increase from <br> a stage 1 tune.</p>
+            </div>
+            <div><h1>35-50 hp</h1>
+                <div class="small_rect1"></div>
+                <p>rougly increase from <br> a stage 2 tune.</p>
+            </div>
+            <p></p>
+        </div>
+        </div>
+          </div>
+          <DIV class="footer">
+            <div> <h2 class="font colors">BEST TUNING</h2></div>
+            <div class="tune"><UL><a href="">Home</a>
+                <a href="">Projects</a>
+                <a href="">Teams</a>
+                <a href="">Contact us</a>
+        
+            </UL></div>
+            <div class="copyright"><p><i class="fa-regular fa-copyright"></i> 2020 Best Tuning. All rights reserved</p></div>
+            <div><i class="fa-brands fa-facebook-f" id="app-logo"></i> &nbsp; <i class="fa-brands fa-linkedin-in" id="app-logo"></i></div>
+          </DIV>
+          <script>
+            const load_content=()=>{
+                document.getElementsByClassName('container-1_content')[0].style.opacity="1";
+                document.getElementsByClassName('starting')[0].style.width="93rem";
+                
+            }
+         const con=document.querySelector(".content-2");
+         const content=document.querySelector('.content-3');
+         const container=document.querySelector(".container-3_content");
+         const rect=document.querySelector(".small_rect");
+         const rect1=document.querySelector(".small_rect1");
+        //     window.addEventListener('scroll',()=>{
+        // x+=1;
+        // console.log(x);
+        //     })
+        window.onscroll=(e)=>{
+            var scroll = window.pageYOffset;
+            if(scroll>350){
+        con.style.opacity="1";
+            }
+
+         if(scroll>1200)
+            {
+                rect1.style.width="97px";
+                rect.style.width="97px";
+            }
+        }
+        </script>
+</body>
+</html>
